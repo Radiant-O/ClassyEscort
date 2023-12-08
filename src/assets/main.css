@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.top{
+    @apply w-full bg-pink-400 z-50 
+}
+.top_menu{
+    @apply flex justify-between items-center w-[90%] mx-auto
+}
+.nav{
+    @apply lg:flex hidden space-x-8 items-center text-white font-medium
+}
+.babe{
+    @apply w-full mt-10
+}
+.babes{
+    @apply w-[82%] mx-auto flex flex-wrap gap-x-10 gap-y-16
+}
+.monav{
+    @apply absolute w-[60%] h-[100vh] ml-[40%] text-xl z-50 font-medium text-white 
+}
+.mob_nav{
+    @apply fixed bg-pink-400 w-[100%] h-[100vh] py-3
+}
+.monav .close_btn{
+    @apply flex w-[55%] justify-end text-3xl pt-2
+}
+.monav div{
+    @apply py-5 pl-5
+}
